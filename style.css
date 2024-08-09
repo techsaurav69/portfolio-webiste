@@ -20,6 +20,9 @@ body{
     margin: 0 auto;
     padding: 0 20px;
 }
+.logo.picture{
+    border-radius: 30px;
+}
 header{
     padding: 40px 0 30px;
     display: flex;
@@ -31,6 +34,7 @@ header{
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    border-radius: 30px;
 }
 .logo i{
     height: 45px;
@@ -46,10 +50,19 @@ header{
     text-align: center;
     
 }
-.logo .logo-text{
-    font-size: 24px;
-    font-weight: 500;
-    color:#fff;
+.picture{
+    width: 230px;
+    height: 250px;
+    border-radius: 100px;
+    overflow: hidden;
+    border: 10px solid,#444;
+    opacity: 150%;
+}
+.picture :hover{
+  transform: scale(1.2)  
+}
+.logo-text:hover{
+    transform: scale(1.2)
 }
 nav .togglebtn{
     width: 35px;
